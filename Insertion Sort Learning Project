@@ -1,0 +1,44 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+Soru 1) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız ?
+
+Adım 1) 22'yi sabit alırız, çünkü tek elemanlı bir dizi zaten sıralı kabul edilir.
+[22, 27, 16, 2, 18, 6]
+
+Adım 2) 16'yı alırız ve uygun konuma yerleştiririz.
+[16, 22, 27, 2, 18, 6]
+
+Adım 3) 2'yi alırız ve uygun konuma yerleştiririz.
+[2, 16, 22, 27, 18, 6]
+
+Adım 4) 18'i alırız ve uygun konuma yerleştiririz.
+[2, 16, 18, 22, 27, 6]
+
+Adım 5) 6'yı alırız ve uygun konuma yerleştiririz.
+[2, 6, 16, 18, 22, 27]
+
+Soru 2) Big-O gösterimini yazınız.
+
+Insertion Sort algoritmasının time complexity'si O(n^2) dir
+
+Soru 3) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+
+18 sayısının, sıralandıktan sonra Insertion Sort Algoritması kullanılarak arandığında ve dizi içinde bulunduğunda "Average case" kapsamına girer.
+
+Soru 4) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+Adım 1) dizinin en küçük elemanını bulur ve ilk sıraya yerleştiririz.
+[2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+Adım 2) ikinci en küçük elemanı bulur ve ikinci sıraya yerleştiririz.
+[2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+Adım 3) üçüncü en küçük elemanı bulur ve üçüncü sıraya yerleştiririz.
+[2, 3, 4, 8, 7, 9, 5, 15, 6]
+
+Adım 4) dördüncü en küçük elemanı bulur ve dördüncü sıraya yerleştiririz.
+[2, 3, 4, 5, 7, 9, 8, 15, 6]
+
